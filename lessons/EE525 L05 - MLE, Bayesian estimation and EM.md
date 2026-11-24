@@ -97,7 +97,7 @@ Page 5 starts the Bayesian part: with only 5 flowers we would not fully trust th
 
 > [!question]- Check (deck A, slide 3): In Figure 3.1 the bottom curve has its peak near $\theta=3.1$, with a height of about $1.5\times10^{-7}$ (a little above the top label $1.2\times10^{-7}$). What is the MLE? Why is the height so small? Is the area under this curve equal to 1?
 > The MLE is the position of the peak: $\hat\theta\approx3.1$. This is the sample mean of the dots in the top graph. The height does not matter, only where the maximum is.
-> The likelihood is a product of one density value per training point. Each factor is well below 1, and there are about a dozen points. To see the size (the numbers are an illustration, not read from the figure): 13 factors of $0.3$ give $0.3^{13}\approx1.6\times10^{-7}$. This is why we work with the log-likelihood (a sum) in practice.
+> The likelihood is a product of one density value per training point. Each factor is well below 1, and there are about a dozen points. To see the size (the numbers are an illustration, not read from the figure): 12 factors of $0.27$ give $0.27^{12}\approx1.5\times10^{-7}$. This is why we work with the log-likelihood (a sum) in practice.
 > The area is not 1. The curve is a function of $\theta$ with the data fixed. It is not a density of $\theta$.
 
 > [!question]- Check (deck A, slide 4): The script prints the variance $0.2164$ for $N=50$. A student replaces `mean((X-mu_ML).^2)` by `var(X)`. What does the script print now, and is it still the MLE?
@@ -153,12 +153,12 @@ Three different variances: $\sigma^2$ (measurements), $\tau_0^2$ (belief about $
 >
 > Intuition: $1/\text{variance}$ is called **precision** (how sure a source is). The data have precision $N/\sigma^2$, the prior has precision $1/\tau_0^2$. Precisions add (step 5), and the posterior mean is the average of $\bar x$ and $\mu_0$ weighted by these precisions (step 6). The slide's $\mu_{Bayes}$ is the $\mu_N$ of this note.
 
-> [!question]- Check (deck A, slide 6): Keep the slide's $N=5$, $\bar x=4.2$, $\mu_0=4.0$, $\sigma^2=0.25$. Predict where $\mu_{Bayes}$ moves if the prior variance is made 10 times larger ($\tau_0^2=2.5$) or 10 times smaller ($\tau_0^2=0.025$). Then compute both.
+> [!question]- Check (deck A, slide 6): Keep the slide's $\mu_0=4.0$, $\sigma^2=0.25$, and take $N=5$, $\bar x=4.2$ from the output on page 8. Predict where $\mu_{Bayes}$ moves if the prior variance is made 10 times larger ($\tau_0^2=2.5$) or 10 times smaller ($\tau_0^2=0.025$). Then compute both.
 > Prediction: a large $\tau_0^2$ means a weak prior, so the estimate moves toward $\bar x=4.2$. A small $\tau_0^2$ means a strong prior, so it moves toward $\mu_0=4.0$.
 > Data precision in both cases: $\frac{N}{\sigma^2}=\frac{5}{0.25}=20$, and $20\times4.2=84$.
 > $\tau_0^2=2.5$: prior precision $\frac{1}{2.5}=0.4$. $\mu_{Bayes}=\frac{84+0.4(4.0)}{20+0.4}=\frac{85.6}{20.4}=4.1961$.
 > $\tau_0^2=0.025$: prior precision $\frac{1}{0.025}=40$. $\mu_{Bayes}=\frac{84+40(4.0)}{20+40}=\frac{244}{60}=4.0667$.
-> Compare with the slide's value $4.1667$ for $\tau_0^2=0.25$: $4.0667<4.1667<4.1961$, as predicted.
+> Compare with the value $4.1667$ of page 8 for $\tau_0^2=0.25$: $4.0667<4.1667<4.1961$, as predicted.
 
 > [!question]- Check (deck A, slide 7): The line `posteriorVariance = 1/(N/sigma2 + 1/tau2)` does not use `data`. What does this mean for two different random sets of 5 flowers? Which line decides which flowers are used?
 > The posterior variance depends only on $N$, $\sigma^2$ and $\tau_0^2$. Any set of 5 flowers gives the same value $\frac{1}{20+4}=\frac{1}{24}=0.04167$, so the same posterior SD $\sqrt{0.04167}=0.2041$. Only the posterior mean changes with the data, through `mu_ML`.
@@ -216,7 +216,7 @@ The histogram is used to compare the fitted curve with the data, not to fit it.
 > Probability of the bin: height $\times$ width $=1.6\times0.5=0.8$, which is $4/5$ and is below 1.
 > Only areas must stay below 1. A height can be any positive number if the bin is narrow.
 
-> [!question]- Check (deck A, slide 10): In the $N=5$ panel the red curve peaks at about $1.57$ and the blue curve at about $0.8$. In the $N=50$ panel red peaks at about $0.86$ and blue again at about $0.8$. What standard deviation does each curve use? Why does only the red peak change?
+> [!question]- Check (deck A, slide 10): In the $N=5$ panel the red curve peaks just below $1.6$ (about $1.57$) and the blue curve at about $0.8$. In the $N=50$ panel red peaks at about $0.86$ and blue again at about $0.8$. What standard deviation does each curve use? Why does only the red peak change?
 > Peak of a Gaussian: $\frac{1}{\sigma\sqrt{2\pi}}$, so $\sigma=\frac{1}{\text{peak}\times2.5066}$.
 > Blue: $\sigma=\frac{1}{0.8\times2.5066}\approx0.5$. This is the assumed known $\sigma=\sqrt{0.25}$. Exact peak: $\frac{1}{0.5\times2.5066}=0.798$. It does not depend on the data, so it is the same in both panels. Only the centre $\mu_{Bayes}$ moves.
 > Red, $N=50$: $\sigma=\hat\sigma_{ML}=0.4652$, peak $\frac{1}{0.4652\times2.5066}=0.858$.

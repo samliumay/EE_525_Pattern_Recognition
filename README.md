@@ -22,8 +22,9 @@ Open the folder as a vault in Obsidian to see the slide images and the folded an
 | L03 | [Iris example analysis](<lessons/EE525 L03 - Iris example analysis.md>) | 17 |
 | L04 | [Minimum risk and discriminant functions](<lessons/EE525 L04 - Minimum risk and discriminant functions.md>) | 29 |
 | L05 | [MLE, Bayesian estimation and EM](<lessons/EE525 L05 - MLE, Bayesian estimation and EM.md>) | 21 |
+| L06 | [Hidden Markov models](<lessons/EE525 L06 - Hidden Markov models.md>) | 24 |
 
-5 lessons, 149 check questions, 149 slide images.
+6 lessons, 173 check questions, 163 slide images.
 
 ## Folders
 

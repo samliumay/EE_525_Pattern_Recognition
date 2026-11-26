@@ -362,5 +362,6 @@ Variable sizes after the run: `X` $150\times2$, `Xtrain` $105\times2$, `Xtest` $
 - Full step-by-step notes (PDF): [EE525_Lecture_03_Iris_Example_Analysis.pdf](file:///home/umaysamli/Desktop/university/ms/semester_2/ee_525/lecture_notes/lecture_03/EE525_Lecture_03_Iris_Example_Analysis.pdf) `/home/umaysamli/Desktop/university/ms/semester_2/ee_525/lecture_notes/lecture_03/EE525_Lecture_03_Iris_Example_Analysis.pdf`
 - Original handout (PDF): [Lecture3-Bayesian Classifier Example Analysis.pdf](file:///home/umaysamli/Desktop/university/ms/semester_2/ee_525/lectures/lecture_03/Lecture3-Bayesian%20Classifier%20Example%20Analysis.pdf) `/home/umaysamli/Desktop/university/ms/semester_2/ee_525/lectures/lecture_03/Lecture3-Bayesian Classifier Example Analysis.pdf`
 - MATLAB script printout (PDF): [Experiment1_BayesianIris_RiskVsMinumumError.m.pdf](file:///home/umaysamli/Desktop/university/ms/semester_2/ee_525/lectures/lecture_03/lms.tedu.edu.tr_pluginfile.php_82482_mod_resource_content_1_Experiment1_BayesianIris_RiskVsMinumumError.m.pdf) `/home/umaysamli/Desktop/university/ms/semester_2/ee_525/lectures/lecture_03/lms.tedu.edu.tr_pluginfile.php_82482_mod_resource_content_1_Experiment1_BayesianIris_RiskVsMinumumError.m.pdf`
+- Quiz: [[EE525 L03 - Iris example analysis - quiz]]
 
 Slides not embedded: none.

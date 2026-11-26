@@ -580,5 +580,6 @@ With equal priors it is the perpendicular bisector of the means (the nearest-mea
 - Previous: [[EE525 L01 - Introduction to pattern recognition]]. Next: [[EE525 L03 - Iris example analysis]] (this theory as a MATLAB script).
 - Full step-by-step notes (PDF): [EE525_Lecture_02_Bayesian_Classifiers.pdf](file:///home/umaysamli/Desktop/university/ms/semester_2/ee_525/lecture_notes/lecture_02/EE525_Lecture_02_Bayesian_Classifiers.pdf) `/home/umaysamli/Desktop/university/ms/semester_2/ee_525/lecture_notes/lecture_02/EE525_Lecture_02_Bayesian_Classifiers.pdf`
 - Original slides (PDF): [Lecture 2- Bayesian Classifiers.pdf](file:///home/umaysamli/Desktop/university/ms/semester_2/ee_525/lectures/lecture_02/Lecture%202-%20Bayesian%20Classifiers.pdf) `/home/umaysamli/Desktop/university/ms/semester_2/ee_525/lectures/lecture_02/Lecture 2- Bayesian Classifiers.pdf`
+- Quiz: [[EE525 L02 - Bayesian classifiers - quiz]]
 
 Slides not embedded: 1 (title).

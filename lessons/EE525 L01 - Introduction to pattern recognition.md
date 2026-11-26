@@ -591,5 +591,6 @@ Remote sensing example: a scanner measures the reflected energy of each ground c
 - Next lecture: [[EE525 L02 - Bayesian classifiers]]
 - Full step-by-step notes (PDF): [EE525_Lecture_01_Introduction.pdf](file:///home/umaysamli/Desktop/university/ms/semester_2/ee_525/lecture_notes/lecture_01/EE525_Lecture_01_Introduction.pdf) `/home/umaysamli/Desktop/university/ms/semester_2/ee_525/lecture_notes/lecture_01/EE525_Lecture_01_Introduction.pdf`
 - Original slides (PDF): [Lecture 1- Introduction.pdf](file:///home/umaysamli/Desktop/university/ms/semester_2/ee_525/lectures/lecture_01/Lecture%201-%20Introduction.pdf) `/home/umaysamli/Desktop/university/ms/semester_2/ee_525/lectures/lecture_01/Lecture 1- Introduction.pdf`
+- Quiz: [[EE525 L01 - Introduction to pattern recognition - quiz]]
 
 Slides not embedded: 1 (title).

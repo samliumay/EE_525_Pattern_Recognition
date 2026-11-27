@@ -453,5 +453,6 @@ Answers to the three questions on page 5: (1) no, one Gaussian would put its pea
 - Full step-by-step notes (PDF): [EE525_Lecture_05_MLE_Bayes_EM.pdf](file:///home/umaysamli/Desktop/university/ms/semester_2/ee_525/lecture_notes/lecture_05/EE525_Lecture_05_MLE_Bayes_EM.pdf) `/home/umaysamli/Desktop/university/ms/semester_2/ee_525/lecture_notes/lecture_05/EE525_Lecture_05_MLE_Bayes_EM.pdf`
 - Deck A (PDF): [Maximum Likelihood and Bayesian Parameter Estimation.pdf](file:///home/umaysamli/Desktop/university/ms/semester_2/ee_525/lectures/lecture_05/Maximum%20Likelihood%20and%20Bayesian%20Parameter%20Estimation.pdf) `/home/umaysamli/Desktop/university/ms/semester_2/ee_525/lectures/lecture_05/Maximum Likelihood and Bayesian Parameter Estimation.pdf`
 - Deck B (PDF): [Expectation-Maximization (EM) and Mixture Density Estimation.pdf](file:///home/umaysamli/Desktop/university/ms/semester_2/ee_525/lectures/lecture_05/Expectation-Maximization%20(EM)%20and%20Mixture%20Density%20Estimation.pdf) `/home/umaysamli/Desktop/university/ms/semester_2/ee_525/lectures/lecture_05/Expectation-Maximization (EM) and Mixture Density Estimation.pdf`
+- Quiz: [[EE525 L05 - MLE, Bayesian estimation and EM - quiz]]
 
 Slides not embedded: none.

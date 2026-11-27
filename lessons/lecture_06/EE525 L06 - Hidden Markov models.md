@@ -693,5 +693,6 @@ Repeat E-step and M-step. $P(O\mid\lambda)$ never decreases. The result is a loc
 - Course index: [[EE525 Home]]
 - Previous: [[EE525 L05 - MLE, Bayesian estimation and EM]] (maximum likelihood, EM and responsibilities, used by Baum-Welch). Bayes' rule and priors: [[EE525 L02 - Bayesian classifiers]].
 - Handout (PDF): [Lecture 6 Hidden Markov Models.pdf](file:///home/umaysamli/Desktop/university/ms/semester_2/ee_525/lectures/Lecture_06/Lecture%206%20Hidden%20Markov%20Models.pdf) `/home/umaysamli/Desktop/university/ms/semester_2/ee_525/lectures/Lecture_06/Lecture 6 Hidden Markov Models.pdf`
+- Quiz: [[EE525 L06 - Hidden Markov models - quiz]]
 
 Slides not embedded: none.

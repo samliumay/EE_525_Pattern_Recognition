@@ -10,7 +10,7 @@ Exams mix derivations and numeric problems (Bayes rule, risk, discriminants, est
 ## Sources, in priority order
 
 1. **Lesson note** (my notes, slide by slide, with 24 check questions and their answers): `/home/umaysamli/Desktop/university/ms/semester_2/ee_525/EE_525_Pattern_Recognition/lessons/lecture_06/EE525 L06 - Hidden Markov models.md`
-2. **Quiz note:** not written yet for this lesson. Use the check questions of the lesson note.
+2. **Quiz note** (24 multiple-choice questions, one per check question, each with a folded answer that explains every option): `/home/umaysamli/Desktop/university/ms/semester_2/ee_525/EE_525_Pattern_Recognition/lessons/lecture_06/EE525 L06 - Hidden Markov models - quiz.md`
 3. **Slide images** (one jpg per slide; the lesson note embeds them as `![[<deck>_pNNN.jpg]]`): `/home/umaysamli/Desktop/university/ms/semester_2/ee_525/EE_525_Pattern_Recognition/others/slides/ee525_lecture_06_lecture_6_hidden_markov_models`
 4. **Original slides (PDF):** `/home/umaysamli/Desktop/university/ms/semester_2/ee_525/lectures/Lecture_06/Lecture 6 Hidden Markov Models.pdf`
 

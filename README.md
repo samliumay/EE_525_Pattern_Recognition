@@ -22,9 +22,9 @@ Open the folder as a vault in Obsidian to see the slide images and the folded an
 | L01 | [Introduction to pattern recognition](<lessons/lecture_01/EE525 L01 - Introduction to pattern recognition.md>) | 46 | [quiz](<lessons/lecture_01/EE525 L01 - Introduction to pattern recognition - quiz.md>) |
 | L02 | [Bayesian classifiers](<lessons/lecture_02/EE525 L02 - Bayesian classifiers.md>) | 36 | [quiz](<lessons/lecture_02/EE525 L02 - Bayesian classifiers - quiz.md>) |
 | L03 | [Iris example analysis](<lessons/lecture_03/EE525 L03 - Iris example analysis.md>) | 17 | [quiz](<lessons/lecture_03/EE525 L03 - Iris example analysis - quiz.md>) |
-| L04 | [Minimum risk and discriminant functions](<lessons/lecture_04/EE525 L04 - Minimum risk and discriminant functions.md>) | 29 | not yet |
-| L05 | [MLE, Bayesian estimation and EM](<lessons/lecture_05/EE525 L05 - MLE, Bayesian estimation and EM.md>) | 21 | not yet |
-| L06 | [Hidden Markov models](<lessons/lecture_06/EE525 L06 - Hidden Markov models.md>) | 24 | not yet |
+| L04 | [Minimum risk and discriminant functions](<lessons/lecture_04/EE525 L04 - Minimum risk and discriminant functions.md>) | 29 | [quiz](<lessons/lecture_04/EE525 L04 - Minimum risk and discriminant functions - quiz.md>) |
+| L05 | [MLE, Bayesian estimation and EM](<lessons/lecture_05/EE525 L05 - MLE, Bayesian estimation and EM.md>) | 21 | [quiz](<lessons/lecture_05/EE525 L05 - MLE, Bayesian estimation and EM - quiz.md>) |
+| L06 | [Hidden Markov models](<lessons/lecture_06/EE525 L06 - Hidden Markov models.md>) | 24 | [quiz](<lessons/lecture_06/EE525 L06 - Hidden Markov models - quiz.md>) |
 
 6 lessons, 173 check questions, 163 slide images.
 
